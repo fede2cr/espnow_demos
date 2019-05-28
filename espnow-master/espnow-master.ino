@@ -8,7 +8,7 @@
 //Pinos que iremos ler (digitalRead) e enviar para os Slaves
 //É importante que o código fonte dos Slaves tenha este mesmo array com os mesmos gpios
 //na mesma ordem
-uint8_t gpios[] = {26, 2};
+uint8_t gpios[] = {0, 2};
  
 //No setup iremos calcular a quantidade de pinos e colocar nesta variável,
 //assim não precisamos trocar aqui toda vez que mudarmos a quantidade de pinos,
